@@ -10,6 +10,8 @@ st.title('Alat Ukur Kematangan dan Kesiapan Lean 4.0 Dengan Sustainability untuk
 # Input nama dan nama perusahaan
 nama = st.text_input('Nama')
 nama_perusahaan = st.text_input('Nama Perusahaan')
+produk = st.text_input('Produk')
+jabatan = st.text_input('Jabatan')
 
 # Contoh struktur pertanyaan baru: list of dict per dimensi abi
 DIMENSI = {
